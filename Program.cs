@@ -31,7 +31,7 @@ class Program
 
             ValidateInput(uName, eMail, passWord);
 
-            Console.WriteLine($"Registeration of User {uName} with Email{eMail} has been registered successfully!!");
+            Console.WriteLine($"Registeration of User {uName} with Email {eMail} has been registered successfully!!");
             Console.WriteLine("Name: " + uName);
             Console.WriteLine("Email: " + eMail);
             Console.WriteLine("Password: " + passWord);
